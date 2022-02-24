@@ -1,0 +1,7 @@
+l=[]
+n=int(input('enter n'))
+for i in range(n):
+    e=int(input('enter element'))
+    l.append(e)
+l=l[-1:-(n+1):-1]
+print(l)
